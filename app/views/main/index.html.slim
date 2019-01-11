@@ -1,0 +1,11 @@
+form action=search_path method='post' data-remote='true'
+  .row.form-group
+    label.col-2.col-form-label for='searchField' I'm looking for:
+    .col-8
+      input.form-control(type='text' id='searchField'
+        placeholder='something in Github public repositories'
+        name='query')
+    .col-2
+      button.btn.btn-primary Search
+.row
+  #results.col
